@@ -1,4 +1,5 @@
 import 'package:cross_platform/labs/lab01.dart';
+import 'package:cross_platform/labs/lab02.dart';
 import 'package:flutter/material.dart';
 
 class ListLabs extends StatelessWidget {
@@ -16,6 +17,15 @@ class ListLabs extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const Lab01()),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text("Lab02: Mi card"),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const Lab02()),
               );
             },
           ),
