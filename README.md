@@ -4,3 +4,4 @@
 
 - [Lab01](./lib/labs/lab01.dart)
 - [Lab02](./lib/labs/lab02.dart)
+- [Lab03](./lib/labs/lab03.dart)
