@@ -7,3 +7,4 @@
 - [Lab03](./lib/labs/lab03.dart)
 - [Lab04](./lib/labs/lab04.dart)
 - [Lab05](./lib/labs/lab05.dart)
+- [Lab06](./lib/labs/lab06.dart)
