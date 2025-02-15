@@ -3,6 +3,7 @@ import 'package:cross_platform/labs/lab02.dart';
 import 'package:cross_platform/labs/lab03.dart';
 import 'package:cross_platform/labs/lab04.dart';
 import 'package:cross_platform/labs/lab05.dart';
+import 'package:cross_platform/labs/lab06.dart';
 import 'package:flutter/material.dart';
 
 class ListLabs extends StatelessWidget {
@@ -56,6 +57,15 @@ class ListLabs extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const Lab05()),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text("Lab06: Quizzler"),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const Lab06()),
               );
             },
           ),
