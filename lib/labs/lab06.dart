@@ -55,7 +55,7 @@ class _Lab06 extends State<Lab06> {
                         ),
                       ),
                       onPressed: () {
-                        bool result = quizBrain.getCorrectAnswer();
+                        quizBrain.getCorrectAnswer();
                         setState(() {
                           scoreKeeper.add(
                             const Icon(
@@ -65,7 +65,7 @@ class _Lab06 extends State<Lab06> {
                           );
                           quizBrain.nextQuestion();
                         });
-                        print(result == true);
+                        // print(result == true);
                       },
                     ),
                   ),
@@ -85,7 +85,7 @@ class _Lab06 extends State<Lab06> {
                         ),
                       ),
                       onPressed: () {
-                        bool result = quizBrain.getCorrectAnswer();
+                        quizBrain.getCorrectAnswer();
 
                         setState(() {
                           scoreKeeper.add(
@@ -96,7 +96,7 @@ class _Lab06 extends State<Lab06> {
                           );
                           quizBrain.nextQuestion();
                         });
-                        print(result == false);
+                        // print(result == false);
                       },
                     ),
                   ),
