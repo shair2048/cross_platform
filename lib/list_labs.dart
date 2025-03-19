@@ -6,6 +6,7 @@ import 'package:cross_platform/labs/lab05.dart';
 import 'package:cross_platform/labs/lab06.dart';
 import 'package:cross_platform/labs/lab07.dart';
 import 'package:cross_platform/labs/lab08.dart';
+import 'package:cross_platform/labs/lab09_loading_screen.dart';
 import 'package:flutter/material.dart';
 
 class ListLabs extends StatelessWidget {
@@ -81,11 +82,21 @@ class ListLabs extends StatelessWidget {
             },
           ),
           ListTile(
-            title: const Text("Lab08: Boss Level Challenge 2"),
+            title: const Text("Lab08: BMI Calculator"),
             onTap: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const Lab08()),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text(
+                "Lab09: Clima - Powering Your FlutterApp with Live Web Data"),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const Lab09()),
               );
             },
           ),

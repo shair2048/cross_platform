@@ -9,3 +9,5 @@
 - [Lab05](./lib/labs/lab05.dart)
 - [Lab06](./lib/labs/lab06.dart)
 - [Lab07](./lib/labs/lab07.dart)
+- [Lab08](./lib/labs/lab08.dart)
+- [Lab09](./lib/labs/lab09_loading_screen.dart)
